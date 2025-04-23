@@ -160,6 +160,10 @@ body {
     padding: 0 20px;
 }
 
+.hero::before{
+    background: rgba(0, 0, 0, 0.5); /* Dim effect */
+}
+
 .hero-content {
     margin-top: 100px;
     max-width: 600px;
