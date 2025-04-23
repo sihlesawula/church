@@ -48,7 +48,7 @@ body {
 }
 
 .left-text, .right-text {
-    color: #000;
+    color: #fff;
     font-weight:lighter;
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -68,7 +68,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     background: transparent;
-    color: #000;
+    color: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -104,7 +104,7 @@ body {
 }
 
 .nav-links a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -150,7 +150,7 @@ body {
 
 .hero {
     position: relative;
-    background-image: url('../images/congregation1.jpg');  
+    background-image: url('../images/homepages-img/1.jpg');  
     background-size: cover;
     background-position: center;
     height: 100vh;
