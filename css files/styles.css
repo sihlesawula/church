@@ -148,8 +148,8 @@ body {
 
 
 
-
 .hero {
+    position: relative;
     background-image: url('../images/congregation1.jpg');  
     background-size: cover;
     background-position: center;
@@ -160,29 +160,40 @@ body {
     padding: 0 20px;
 }
 
-.hero::before{
-    background: rgba(0, 0, 0, 0.5); /* Dim effect */
+/* Add a dimming overlay on the background */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1; /* Makes sure the overlay stays behind text */
 }
 
 .hero-content {
+    position: relative;
     margin-top: 100px;
     max-width: 600px;
-    color: #000;
+    color: #fff;  /* Change text color to white for contrast */
     text-align: left;
     padding: 20px;
+    z-index: 2;  /* Ensures content stays on top */
 }
 
 .hero h1 {
     font-size: 50px;
     margin-bottom: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hero .subtitle {
     font-size: 24px;
     margin-bottom: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 .button {
     background-color: #054905;
