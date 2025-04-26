@@ -242,7 +242,7 @@ body {
   /* About Section */
   .about-section {
     position: relative;
-    background-image: url('https://source.unsplash.com/1600x900/?nature,landscape');
+    background-image: url('../images/homepages-img/1.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
