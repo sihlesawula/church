@@ -44,6 +44,13 @@
         </div>
     </header>
 
+    <div class="verse-popup" id="versePopup">
+        <button class="close-btn" onclick="closePopup()">✕</button>
+        <div class="popup-content">
+          <h4>Word of the Day:</h4>
+          <p>"The Lord is my shepherd; I shall not want." — Psalm 23:1</p>
+        </div>
+      </div>
 
 <section id="home"></section>
     <section class="hero">
@@ -76,8 +83,6 @@ So whether you're seeking healing, restoration, or a deeper relationship with Go
 Come. Be renewed. Be revived. Be free. <br>
 
 Welcome to <strong>Salvation Church Of The Revival Of Faith</strong> — where souls are saved, lives are changed, and Jesus is Lord.
-
-
           </p>
         </div>
       </section>
@@ -201,7 +206,11 @@ Welcome to <strong>Salvation Church Of The Revival Of Faith</strong> — where s
 </footer>
 
 
-
+<script>
+    function closePopup() {
+      document.getElementById('versePopup').style.display = 'none';
+    }
+  </script>
 
     <script src="js/script.js"></script>
 </body>
