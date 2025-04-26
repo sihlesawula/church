@@ -236,6 +236,57 @@ body {
 
 
 
+
+
+
+  /* About Section */
+  .about-section {
+    position: relative;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,landscape');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-content h2 {
+      font-size: 2.2rem;
+    }
+  
+    .about-content p {
+      font-size: 1rem;
+    }
+  
+    .about-section {
+      background-attachment: scroll;
+      padding: 80px 15px;
+    }
+  }
+  
+
+
+
+
 .about-us {
     background-image: url("../images/homepages-img/IMG-20250419-WA0001.jpg");
     padding: 60px 20px;
