@@ -435,11 +435,12 @@ body {
   
   .stream-content h2 {
     font-size: 3rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .stream-content p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
   }
 
 
