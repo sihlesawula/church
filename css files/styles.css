@@ -437,6 +437,12 @@ body {
     font-size: 3rem;
     margin-bottom: 30px;
   }
+
+  .stream-content p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
   
   .play-button {
     display: inline-block;
