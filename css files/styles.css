@@ -619,6 +619,10 @@ body {
     background-color: #f4f4f4;
   }
   
+  p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
   .container {
     width: 90%;
     max-width: 1200px;
