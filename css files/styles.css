@@ -806,6 +806,10 @@ body {
     color: #fff;
     border-top: 1px solid #ddd;
   }
+
+  .email{
+    text-decoration: none;
+  }
   
   @media (max-width: 600px) {
     .site-footer {
