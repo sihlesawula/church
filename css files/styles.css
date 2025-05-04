@@ -562,7 +562,7 @@ body {
   
   /* Leadership Section */
   .leadership {
-    background-color: #000;
+    background-image: url('../images/homepages-img/neon-bck.jpg');
     padding: 40px 0;
     text-align: center;
   }
