@@ -234,7 +234,7 @@ h4{
 
 .hero {
     position: relative;
-    background-image: url('../images/convocation/convocation-img.jpg');  
+    background-image: url('../images/easter/easter2.jpg');  
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -805,10 +805,6 @@ body {
     background-color: #000;
     color: #fff;
     border-top: 1px solid #ddd;
-  }
-
-  .email{
-    text-decoration: none;
   }
   
   @media (max-width: 600px) {
