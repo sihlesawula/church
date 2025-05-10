@@ -43,7 +43,7 @@ h4{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: transparent;
+    background: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@ h4{
 }
 
 .left-text, .right-text {
-    color: #fff;
+    color: #000;
     font-weight:lighter;
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -71,8 +71,8 @@ h4{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: transparent;
-    color: #fff;
+    background: #fff;
+    color: #000;
     position: absolute;
     top: 0;
     left: 0;
@@ -108,7 +108,7 @@ h4{
 }
 
 .nav-links a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
