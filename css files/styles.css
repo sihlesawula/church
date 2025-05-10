@@ -273,6 +273,11 @@ h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+.hero h1:hover {
+  color:#fa0505;
+}
+
 .hero .subtitle {
     font-size: 24px;
     margin-bottom: 20px;
