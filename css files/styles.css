@@ -267,7 +267,8 @@ h4{
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 100px;
+    line-height: 10px;
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -601,6 +602,10 @@ body {
       font-size: 1.5rem;
     }
   }
+
+
+
+
 
 
 
