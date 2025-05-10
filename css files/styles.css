@@ -116,7 +116,7 @@ h4{
 
 
 .nav-links a:hover{
-  color:#054905;
+  color:#0dd80d;
   text-decoration: none;
   font-size: 18px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -276,7 +276,7 @@ h4{
 
 .hero h1 {
     font-size: 100px;
-    line-height: 50px;
+    line-height: 100px;
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
