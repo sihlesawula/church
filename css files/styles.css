@@ -108,10 +108,18 @@ h4{
 }
 
 .nav-links a {
-    color: #000;
+    color: #fa0505;
     text-decoration: none;
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.nav-links a:hover{
+  color:#054905;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hamburger {
@@ -268,15 +276,12 @@ h4{
 
 .hero h1 {
     font-size: 100px;
-    line-height: 200px;
+    line-height: 50px;
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
-.hero h1:hover {
-  color:#fa0505;
-}
 
 .hero .subtitle {
     font-size: 24px;
