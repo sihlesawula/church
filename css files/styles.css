@@ -43,7 +43,7 @@ h4{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: #fff;
+    background: #000;
     position: absolute;
     top: 0;
     left: 0;
@@ -52,10 +52,10 @@ h4{
 }
 
 .left-text, .right-text {
-    color: #000;
+    color: #fff;
     font-weight:lighter;
     font-size: 18px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width: 768px) {
