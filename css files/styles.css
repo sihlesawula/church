@@ -159,187 +159,102 @@ h4{
 }
 
 
+/* Floating Image */
 
-/* ==========================
-   Floating Image
-========================== */
-
-.verse-trigger{
+.floating-image{
     position:fixed;
-    bottom:25px;
-    right:25px;
-    width:130px;
+    bottom:20px;
+    right:20px;
+    width:120px;
     cursor:pointer;
-    z-index:999;
-    transition:0.3s ease;
+    z-index:9999;
 }
 
-.verse-trigger img{
+.floating-image img{
     width:100%;
     display:block;
-    border-radius:12px;
-    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+    transition:.3s;
 }
 
-.verse-trigger:hover{
-    transform:scale(1.08);
+.floating-image img:hover{
+    transform:scale(1.05);
 }
 
 
-/* ==========================
-   Modal
-========================== */
+/* Modal */
 
-.verse-modal{
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.92);
+.image-modal{
     display:none;
-    justify-content:center;
-    align-items:center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.95);
     z-index:99999;
 }
 
-.verse-modal.active{
-    display:flex;
-}
 
+/* Show modal */
 
-/* ==========================
-   Modal Content
-========================== */
-
-.verse-modal-content{
-    position:relative;
-    width:95vw;
-    height:95vh;
-
+.image-modal.show{
     display:flex;
     justify-content:center;
     align-items:center;
-
-    animation:zoomIn .3s ease;
 }
 
 
-/* ==========================
-   Image
-========================== */
+/* Image */
 
-.verse-image{
-    max-width:100%;
-    max-height:100%;
-    width:auto;
-    height:auto;
-
+.modal-image{
+    max-width:95%;
+    max-height:95%;
     object-fit:contain;
-
-    border-radius:12px;
 }
 
 
-/* ==========================
-   Close Button
-========================== */
+/* Close Button */
 
 .close-modal{
-
     position:absolute;
-
     top:20px;
-    right:20px;
-
-    width:45px;
-    height:45px;
-
-    border:none;
-
-    border-radius:50%;
-
-    background:white;
-
-    color:black;
-
-    font-size:28px;
-
+    right:30px;
+    color:#fff;
+    font-size:45px;
+    font-weight:bold;
     cursor:pointer;
-
-    transition:.2s;
-}
-
-.close-modal:hover{
-    transform:scale(1.1);
 }
 
 
-/* ==========================
-   Animation
-========================== */
+/* Tablet */
 
-@keyframes zoomIn{
+@media(max-width:768px){
 
-    from{
-        opacity:0;
-        transform:scale(.85);
-    }
-
-    to{
-        opacity:1;
-        transform:scale(1);
-    }
-
-}
-
-
-/* ==========================
-   Tablets
-========================== */
-
-@media (max-width:768px){
-
-    .verse-trigger{
-        width:95px;
-        right:18px;
-        bottom:18px;
-    }
-
-    .close-modal{
-        top:15px;
-        right:15px;
-    }
-
-}
-
-
-/* ==========================
-   Small Phones
-========================== */
-
-@media (max-width:480px){
-
-    .verse-trigger{
-        width:80px;
+    .floating-image{
+        width:90px;
         bottom:15px;
         right:15px;
     }
 
-    .verse-modal-content{
-        width:100vw;
-        height:100vh;
-        padding:15px;
-    }
+}
 
-    .verse-image{
-        max-width:100%;
-        max-height:92%;
+
+/* Phones */
+
+@media(max-width:480px){
+
+    .floating-image{
+        width:70px;
+        bottom:10px;
+        right:10px;
     }
 
     .close-modal{
-        width:40px;
-        height:40px;
-        font-size:24px;
-        top:10px;
-        right:10px;
+        font-size:36px;
+        top:15px;
+        right:20px;
     }
 
 }
