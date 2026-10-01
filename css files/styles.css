@@ -95,7 +95,7 @@ h4{
 .nav-links a{
     position:relative;
     text-decoration:none;
-    color:#222;
+    color:#000;
     font-size:16px;
     font-weight:500;
     transition:.3s;
@@ -114,7 +114,7 @@ h4{
 }
 
 .nav-links a:hover{
-    color:#0b5d1e;
+    color:#d30000;
 
 }
 
@@ -127,23 +127,10 @@ h4{
     display:none;
     font-size:32px;
     cursor:pointer;
-    color:#0b5d1e;
+    color:#000;
 }
 
 @media(max-width:900px){
-
-.topbar{
-    flex-direction:column;
-    justify-content:center;
-    height:70px;
-    text-align:center;
-    gap:3px;
-}
-
-.left-text,
-.right-text{
-    font-size:13px;
-}
 
 .navbar{
     height:80px;
@@ -172,7 +159,6 @@ h4{
     overflow:hidden;
     transition:.4s ease;
     box-shadow:0 15px 30px rgba(0,0,0,.08);
-
 }
 
 .nav-links.active{
@@ -222,8 +208,6 @@ h4{
 }
 
 
-/* Modal */
-
 .image-modal{
     display:none;
     position:fixed;
@@ -236,8 +220,6 @@ h4{
 }
 
 
-/* Show modal */
-
 .image-modal.show{
     display:flex;
     justify-content:center;
@@ -245,16 +227,12 @@ h4{
 }
 
 
-/* Image */
-
 .modal-image{
     max-width:95%;
     max-height:95%;
     object-fit:contain;
 }
 
-
-/* Close Button */
 
 .close-modal{
     position:absolute;
@@ -267,8 +245,6 @@ h4{
 }
 
 
-/* Tablet */
-
 @media(max-width:768px){
 
     .floating-image{
@@ -279,8 +255,6 @@ h4{
 
 }
 
-
-/* Phones */
 
 @media(max-width:480px){
 
@@ -313,7 +287,7 @@ h4{
     padding: 0 20px;
 }
 
-/* Add a dimming overlay on the background */
+
 .hero::before {
     content: "";
     position: absolute;
@@ -321,23 +295,23 @@ h4{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
-    z-index: 1; /* Makes sure the overlay stays behind text */
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
 }
 
 .hero-content {
     position: relative;
     margin-top: 100px;
     max-width: 600px;
-    color: #fff;  /* Change text color to white for contrast */
+    color: #fff;  
     text-align: left;
     padding: 20px;
-    z-index: 2;  /* Ensures content stays on top */
+    z-index: 2;  
 }
 
 .hero h1 {
     font-size: 100px;
-    line-height: 70px;
+    line-height: 80px;
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
