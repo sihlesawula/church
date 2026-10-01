@@ -311,7 +311,8 @@ h4{
 
 .hero h1 {
     font-size: 100px;
-    line-height: 80px;
+    line-height: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
