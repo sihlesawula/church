@@ -85,6 +85,13 @@ h4{
     color:#000;
 }
 
+.company-name:hover{
+    font-size:20px;
+    font-weight:700;
+    color:#054905;
+}
+
+
 
 .nav-links ul{
     display:flex;
@@ -312,6 +319,7 @@ h4{
 .hero h1 {
     font-size: 90px;
     line-height: 80px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
