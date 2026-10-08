@@ -378,7 +378,7 @@ h4{
 
 
 
-  /* About Section */
+  
   .about-section {
     position: relative;
     background-image: url('../images/1c93acc2-f12d-4d8b-ad74-273265458071.jpeg');
@@ -391,7 +391,7 @@ h4{
   }
 
 
-  /* new overlay to dim full background */
+  
 .about-section .overlay {
     position: absolute;
     top: 0;
@@ -403,7 +403,7 @@ h4{
   }
 
 
-  /* make content appear above overlay */
+  
 .about-content {
     position: relative;
     z-index: 2;
@@ -431,6 +431,7 @@ h4{
   .about-content p {
     font-size: 1.2rem;
     color:#fff;
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
