@@ -154,6 +154,11 @@ h4{
     display:none;
     font-size:32px;
     cursor:pointer;
+    color:#fff;
+    transition:color .35s ease;
+}
+
+.navbar.scrolled .hamburger{
     color:#000;
 }
 
